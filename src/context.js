@@ -1,9 +1,19 @@
 import React, {Component} from 'react';
 
-export default class ProductProvider extends Component {
+const ProductContext = React.createContext();
+//Provider - provides all info for application, sits on top of application
+//Consumer - use this object to "consume" info from provider
+
+class ProductProvider extends Component {
     render(){
         return(
-            <div></div>
+            <ProductContext.Provider value="hello from phone app">
+                {this.props.children}
+            </ProductContext.Provider>
         )
     }
 }
+
+const ProductConsumer = ProductContext.Consumer;
+
+export {ProductProvider, ProductConsumer};
