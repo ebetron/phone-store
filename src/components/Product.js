@@ -90,6 +90,6 @@ const ProductWrapper = styled.div`
 }
 .cart-btn:hover{
     color: var (--mainBlue);
-    cusror: pointer;
+    cursor: pointer;
 }
 `
