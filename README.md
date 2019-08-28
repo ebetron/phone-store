@@ -1,3 +1,13 @@
+# Phone Store
+### An e-commerce store powered by React.
+
+This is an e-commerce store consisting of three sections: 
+* Our Products - product listing page
+* Product Details - product information page
+* Cart - review purchase details
+
+Users can view different products, add to the cart and from there adjust quantity.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
